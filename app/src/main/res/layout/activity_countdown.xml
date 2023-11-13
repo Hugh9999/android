@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CountdownActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/content_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gradient_image_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gradient_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/triangle_logo_top_left"
+            android:layout_width="460dp"
+            android:layout_height="160dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+<!--        <ImageView-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:focusable="false"-->
+<!--            android:focusableInTouchMode="false"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/pkl_logo_home"-->
+<!--            tools:ignore="ContentDescription" />-->
+
+        <TextView
+            android:id="@+id/content_detail_title"
+            android:layout_width="500dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="120dp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:gravity="bottom"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/divider_line_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_detail_title"
+            android:layout_alignStart="@+id/content_detail_title"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/divider_line"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/content_detail_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_line_1"
+            android:layout_alignStart="@+id/content_detail_title"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/content_cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_detail_genre"
+            android:layout_alignStart="@+id/content_detail_title"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/divider_line_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_cast"
+            android:layout_alignStart="@+id/content_detail_title"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/divider_line"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_line_2"
+            android:layout_alignStart="@+id/content_detail_title"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="#f6901e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

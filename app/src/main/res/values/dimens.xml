@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="twenty_dp">12dp</dimen>
+    <dimen name="eighteen_dp">10sp</dimen>
+    <dimen name="twelv_sp">12sp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="eight_sp">8sp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="lb_browse_item_horizontal_spacing">10dp</dimen>
+    <dimen name="lb_browse_item_vertical_spacing">10dp</dimen>
+
+    <dimen name="lb_browse_expanded_row_no_hovercard_bottom_padding">4dp</dimen>
+    <dimen name="lb_browse_expanded_selected_row_top_padding">5dp</dimen>
+    <dimen name="lb_browse_selected_row_top_padding">5dp</dimen>
+    <dimen name="lb_browse_rows_margin_start">5dp</dimen>
+    <!--    <dimen name="lb_rounded_rect_corner_radius">10dp</dimen>-->
+
+    <dimen name="lb_browse_rows_margin_top">3dp</dimen>
+
+
+
+
+    <dimen name="image_btn_corner_radius">3dp</dimen>
+    <dimen name="image_btn_insert">3dp</dimen>
+
+</resources>
